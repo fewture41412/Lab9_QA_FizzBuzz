@@ -7,7 +7,7 @@ class lab9tester {
 	public String fizzBuzz(int number) {
 		String number2 = "" ;
 		if (number%3 == 0 && number%5 == 0) {
-			number2= "fizz buzz";
+			number2= "fizzbuzz";
 			return number2;
 		}else if (number%3 == 0) {
 			number2= "fizz";
