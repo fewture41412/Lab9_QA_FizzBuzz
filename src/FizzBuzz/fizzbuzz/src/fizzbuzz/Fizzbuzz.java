@@ -43,6 +43,13 @@ class Fizzbuzz {
 		lab9tester fizzBuzz = new lab9tester();		
 		assertEquals("buzz",fizzBuzz.fizzBuzz(5));
 		}
+		
+	@Test
+	@DisplayName ("Tesing FizzBuzz input =6")
+	void input6() {
+		lab9tester fizzBuzz = new lab9tester();		
+		assertEquals("fizz",fizzBuzz.fizzBuzz(6));
+		}
 
 		
 		
