@@ -92,6 +92,13 @@ class Fizzbuzz {
 		lab9tester fizzBuzz = new lab9tester();		
 		assertEquals("fizz",fizzBuzz.fizzBuzz(12));
 	}
+	
+	@Test
+	@DisplayName ("Tesing FizzBuzz input =13")
+	void input13() {
+		lab9tester fizzBuzz = new lab9tester();		
+		assertEquals("13",fizzBuzz.fizzBuzz(13));
+	}
 		
 		
 	}
